@@ -1,0 +1,333 @@
+.middlebox {
+	position: relative;
+	width: 100%;
+	background: #c0ebff;
+	height: 1729px;
+}
+.middlebox .tiao {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.middlebox .centerbox {
+	position: relative;
+	width: 1000px;
+	height: 1376px;
+	margin: 0 auto;
+}
+.middlebox .fly {
+	position: absolute;
+	top: -79px;
+	left: 580px;
+	text-align: center;
+	z-index: 100;
+	width: 260px;
+	height: 287px;
+	/*margin-left: -100px;*/
+	/*margin: 0 auto;*/
+}
+.middlebox .centerbox .icehell {
+	position: absolute;
+	top: 76px;
+	left: -200px;
+	width: 384px;
+	height: 211px;
+}
+.middlebox .centerbox .icelittle {
+	position: absolute;
+	top: 255px;
+	width: 384px;
+	height: 211px;	
+	right:-200px;
+}
+.middlebox .centerbox .middleline{
+	position: relative;
+	width: 4px;
+	height: 1412px;
+	margin: 0 auto ;
+	padding-top: 260px;
+}
+.dot {
+	position: absolute;
+	top: 245px;
+	margin-left: -11px;
+	z-index: 9999;
+}
+.refresh {
+	position: absolute;
+	top: 245px;
+	padding-left: 58px;
+	background: url(../images/dotted.png) left 0 no-repeat;
+}
+.refresh .freshbox {
+	width: 186px;
+	height: 30px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #58bff9;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+}
+.dot2 {
+	top: 300px;
+}
+.dot3 {
+	top: 400px;
+}
+.dot4 {
+	top: 1060px;
+}
+.dot5 {
+	top: 900px;
+}
+.line_left {
+	position: absolute;
+	right: 0px;
+	top: 270px;
+	width: 500px;
+	height: 1300px;
+}
+.freshbox_left {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 230px;
+	height: 100px;
+	padding-right: 66px;
+	background: url(../images/dotted2.png) right 0 no-repeat;
+}
+.freshbox_left .txtbox {
+	padding-top: 20px;
+	width: 120px;
+	height: 67px;
+	float: left;
+	font-size: 14px;
+}
+.freshbox_left .txtbox span {
+	font-size: 20px;
+	padding: 0 5px;
+}
+.freshbox_left .toptxt {
+	margin-bottom: 5px;	
+}
+.freshbox_left .bottomtxt {
+	height: 24px;
+	width: 91px;
+	line-height: 22px;
+	font-size: 10px;
+	/*text-align: center;*/
+	color: #fff;
+	background: rgba(0,0,0,0.6);
+	border-radius: 3px;
+	padding-left: 10px;
+}
+.freshbox_left .myface {
+	float: right;
+}
+.firstmenu {
+	position: absolute;
+	top: 120px;
+	right: 60px;
+	width: 452px;
+	padding-top: 45px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px rgba(0,0,0,.2);
+}
+.firstmenu img.tap {
+	position: absolute;
+	right: 30px;
+	top: -19px;
+}
+.firstmenu img.yuanjiao {
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+.dreamtxt {
+	padding: 0 20px;
+}
+.dreamtxt h3 {
+	margin: 0 auto;
+	padding: 0 70px;
+	margin-bottom: 25px;
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+}
+.dreamtxt p.describle {
+	/*padding: 0 20px;*/
+	font-size: 14px;
+	line-height: 150%;
+	color: #878787;
+}
+p.describle .in_icon {
+	display: inline-block;
+	float: right;
+	padding-left: 25px;
+	color: #58bff9;
+	font-size: 10px;
+	margin-right: 5px;
+	background: url(../images/eye.png) left 0 no-repeat;
+}
+p.describle span.sms {
+	background: url(../images/sms.png) left 0 no-repeat;
+}
+p.describle a.canyu {
+	display: inline-block;
+	width: 51px;
+	height: 18px;
+	line-height: 18px;
+	margin-left: 30px;
+	background: #58bff9;
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.dreamtxt .imgbox {
+	margin-top: 25px;
+}
+.dreamtxt .imgbox img {
+	display: block;
+	float: left;
+	margin-right: 17px;
+}
+.dreamtxt .imgbox a {
+	display: block;
+	float: left;
+}
+.jindu {
+	margin-top: 47px;
+}
+.jindu span {
+	font-size: 12px;
+	margin-right: 10px;
+	float: left;
+	display: inline-block;
+}
+.jindu .jindutiao {
+	position: relative;
+	float: left;
+	width: 313px;
+	height: 13px;
+	margin-right: 10px;
+	background-color: #ccc;
+	/*overflow: hidden;*/
+}
+.jindu .jindutiao img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.jindu .jindutiao .jindutxt {
+	position: absolute;
+	bottom: 28px;
+	right: 10px;
+	width: 79px;
+	height: 19px;
+	background: #fe7b61;
+	border-radius: 3px;
+	line-height: 19px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+.jindu .jindutiao .jindutxt span {
+	position: absolute;
+	bottom: 0;
+	right: 35px;
+}
+.inlist {
+	margin-top: 20px;
+}
+.inlist .inlistul li {
+	float: left;
+	list-style-type: none;
+}
+.inlist .inlistul li a {
+	display: block;
+	padding: 16px 3px 16px 29px ;
+	border: 1px solid #f2f2f2;
+	border-right: none;
+	font-size: 12px;
+	color: #000;
+}
+.inlist .inlistul li a span {
+	color: #b0b0b0;
+}
+a.first {
+	background: url(../images/txt_sprites.png) left 0 no-repeat;
+}
+a.second {
+	background: url(../images/txt_sprites.png) left -50px no-repeat;
+}
+a.third {
+	background: url(../images/txt_sprites.png) left -100px no-repeat;
+}
+a.fourth {
+	background: url(../images/txt_sprites.png) left -150px no-repeat;
+}
+
+.his_hero {
+	/*background: #000;*/
+	padding: 20px;
+	padding-right: 0;
+	/*margin-bottom: 10px;*/
+	background-color: #fafafa;
+	border-bottom: 1px solid #f2f2f2;
+}
+.herotitle {
+	margin-bottom: 20px;
+}
+.hero_head li {
+	list-style-type: none;
+	float: left;
+	margin-right: 21px;
+	margin-bottom: 14px;
+}
+.hero_head li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.chakan {
+	padding: 20px;
+	text-align: right;
+}
+.line_left .freshbox2 {
+	top: 760px;
+}
+.line_right {
+	position: absolute;
+	left: 0px;
+	top: 370px;
+	width: 500px;
+	height: 1300px;
+}
+.line_right .freshbox_left {
+	left: 0;
+	padding-left: 50px;
+	padding-right: 0;
+	background: url(../images/dotted2.png) -8px 0 no-repeat;
+	width: auto;
+}
+.line_right .freshbox_left .txtbox {
+	/*float: right;*/
+	padding-left: 30px;
+}
+.line_right .freshbox_left .myface {
+	float: left;
+}
+.line_right .firstmenu {
+	left: 40px;
+}
+.line_right .firstmenu img.tap {
+	left: 40px;
+}
+.line_right .freshbox3 {
+	top: 500px;
+}

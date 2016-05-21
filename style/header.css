@@ -1,0 +1,279 @@
+body {
+	margin: 0;padding: 0;
+	font-family: 'Microsoft YaHei',微软雅黑,宋体;
+}
+.header_father {
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+}
+.header {
+	width: 1000px;
+	height: 60px;
+	background-color: #fff;
+	/*line-height: 60px;*/
+	margin: 0 auto;
+}
+.header a.logo {
+	display: block;
+	float: left;
+	background: url(../images/logo.png);
+	width: 163px;
+	height: 60px;
+	margin-right: 36px;
+}
+.header ul.toplist {
+	float: left;
+	list-style-type: none;
+}
+
+.header ul.toplist li {
+	position: relative;
+	float: left;
+	border: 1px solid #fff;
+	border-top: none;
+	border-bottom: none;
+}
+
+
+/*登陆窗口*/
+.header ul.toplist li.login_li {
+	display: block;
+} 
+.header ul.toplist li.login_li .denglu {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	line-height: 1.5;
+	padding: 33px 40px 30px 50px;
+	background-color: #faf9f1;
+	z-index: 999;
+	border-radius: 0px 0px 10px 10px;
+}
+.login_li .denglu .denglu_close {
+	position: absolute !important;
+	display: block;
+	background: none;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	right: 20px;
+	padding: 0;
+}
+.header ul.toplist li.login_li .denglu input {
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+.checkbtn {
+	width: 200px;
+	height: 27px;
+	line-height: 27px;
+	clear: both;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.header ul.toplist li.login_li .denglu .checkbtn input {
+	display: inline;
+	margin: 0;
+	float: none;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.header ul.toplist li.login_li .denglu .checkbtn a {
+	display: inline;
+	padding: 0;
+	height: auto;
+	font-size: 12px;
+	line-height: 1;
+	margin-left: 5px;
+	background: none;
+}
+.header ul.toplist li.login_li .denglu .login_btn {
+	float: left;
+	display: block;
+	width: 64px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #58bff9;
+}
+.header ul.toplist li.login_li .denglu .other_login {
+	width: 200px;
+	height: 30px;
+}
+.header ul.toplist li.login_li .denglu .other_login p {
+	float: left;
+	font-size: 14px;
+}
+.header ul.toplist li.login_li .denglu .other_login a {
+	float: left;
+	padding: 0;
+	width: auto;
+	height: auto;
+	line-height: 1;
+	background-image: none;
+	margin-left: 20px;
+}
+.header ul.toplist li.my_info {
+	display: none;
+}
+
+/*登录成功*/
+.header ul.toplist li a.myhead {
+	padding-left: 16px;
+	padding-right: 26px;
+	background: url(../images/my_jiantou.png) right 0 no-repeat;;
+	/*border: 1px solid #eaeaea;*/
+	/*border-top: none;*/
+	/*border-bottom: none;*/
+}
+.header ul.toplist li a.myhead img {
+	vertical-align: middle;
+}
+.header ul.toplist li a.myhead span.dongtai {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;
+	text-align: center;
+	font-size: 8px;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 11px;
+	border: 2px solid #fff;
+	background-color: #58bff9;
+}
+/*登录成功下弹窗*/
+.header ul.toplist li ul.geren {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	z-index: 999;
+	background-color: #fff;
+	border: 2px solid #eaeaea;
+	border-top: none;
+}
+.header ul.toplist li ul.geren li {
+	background-color: #fff;
+}
+.header ul.toplist li ul.geren li a {
+	display: block;
+	width: 142px;
+	padding: 16px 0 10px 40px;
+	height: auto;
+	line-height: 1;
+	font-size: 16px;
+	background: url(../images/geren_home.png) left 4px no-repeat;
+	/*background-color: #fff;*/
+	text-align: left;
+}
+
+/*英雄下弹窗*/
+.hero_list {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 106px;
+	height: 92px;
+	z-index: 999;
+	background: url(../images/hero_list.png) 0 0 no-repeat;
+}
+.hero_list_in {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	border: none;
+}
+.hero_list_in li.bluetxt {
+	color: #58bff9;
+}
+.hero_list_in li {
+	float: none;
+	border: none;
+	margin-bottom: 10px;
+}
+
+/*全部a样式*/
+.header ul.toplist li a {
+	position: relative;
+	display: block;
+	height: 60px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 14px;
+	padding: 0 14px 0 26px;
+	color: #4f5259;
+	background: url(../images/top_sprites.png);
+}
+.header ul.toplist li a span:hover {
+		color: orange;
+}
+.header ul.toplist li a.guanyu {
+	background-position: 0 0; 
+}
+.header ul.toplist li a.mengxiang {
+	background-position: 0 -60px; 
+}
+.header ul.toplist li a.hero {
+	background-position: 0 -120px; 
+}
+.header ul.toplist li a img.ico_jiang {
+	/*display: inline-block;*/
+	position: absolute;
+	top: 11px;
+	left: 11px;
+	width: 13px;
+}
+.header .search {
+	float: left;
+	position: relative;
+	top: 13px;
+	display: inline-block;
+	width: 214px;
+	height: 36px;
+	margin: 0 20px;
+}
+.header .search input {
+	position: absolute;
+	top: 0;
+	width: 177px;
+	height: 34px;
+	border: 1px solid #e6e6e6;
+	border-right: none;
+	background: #fff;
+}
+.header .search button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline;
+	width: 36px;
+	height: 36px;
+	background: #89d1f9;
+	background: url(../images/top_sprites.png) 0 -308px no-repeat;
+	border: none;
+}
+.header ul.rightlist {
+	float: right;
+}
+.header ul.toplist li a.misson {
+	background-position: 0 -180px; 
+}
+.header ul.toplist li a.shop {
+	background-position: 0 -240px; 
+}
+.header ul.toplist li a.login {
+	background: none;
+}
